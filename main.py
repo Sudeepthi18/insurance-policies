@@ -19,3 +19,8 @@ def hello(greet: str):
 @app.get("/mahi")
 def fu():
     return {"hreerfyeu"}
+
+
+@app.get("/sudee")
+def func2():
+    return {"msg": "This is from sudeeeeee"}
