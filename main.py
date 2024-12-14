@@ -16,4 +16,6 @@ def greet(name: str):
 def hello(greet: str):
     return {"msg" : f"this is the test {greet}"}
 
-    
+@app.get("/mahi")
+def fu():
+    return {"hreerfyeu"}
