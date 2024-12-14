@@ -10,3 +10,10 @@ def read_root():
 @app.get("/sample/{name}")
 def greet(name: str):
     return {"message": f"Hello {name}! from Teja"}
+
+
+@app.get("/sample/hello/{greet}")
+def hello(greet: str):
+    return {"msg" : f"this is the test {greet}"}
+
+    
